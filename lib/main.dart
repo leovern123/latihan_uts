@@ -9,13 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "NIM : 1123150046, Umar" ,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor : Colors.teal),
-      ),
-    );
+    return MaterialApp();
   }
 }
 
